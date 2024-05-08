@@ -1,6 +1,0 @@
-<?php if (isset($_SESSION['loggedin'])) {
-        echo "<a href='/employee-directory/accounts/'>{$_SESSION['userData']['first_name']}</a>";
-        echo '<a href="/employee-directory/accounts/?action=logout">Logout</a>';
-    } else {
-        echo '<a href="/employee-directory/accounts/?action=login">Login</a>';
-    } ?>
