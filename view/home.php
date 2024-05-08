@@ -11,9 +11,17 @@
         <header>
             <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/employee-directory/snippets/header.php'; ?>
         </header>
-        <nav>
-            <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/employee-directory/snippets/navigation.php'; ?>
-        </nav>
+        <div>
+        <?php
+        // Display the session message if it exists
+        if (isset($_SESSION['message'])) {
+            echo $_SESSION['message'];
+            unset($_SESSION['message']); // Unset message after display
+        }
+        // Display the employee table
+        echo $employeeTable;
+        ?>
+        </div>
     </main>
 </body>
 </html>
