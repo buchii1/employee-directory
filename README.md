@@ -22,8 +22,6 @@ This is a basic program that helps an organization manage their employees, their
 - Change the database connection details to match yours.
 - The connection is located in the `functions.php` under the library directory.
 
-[Software Demo Video](https://youtu.be/Qk31BsBSPPI)
-
 # Relational Database
 I made use of MySQL database.
 
