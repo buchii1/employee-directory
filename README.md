@@ -8,7 +8,7 @@ This is a basic program that helps an organization manage their employees, their
 - Ability to `edit` an employee
 - Ability to `delete` an employee
 - Ability to `add` a new department
-- Ability to `add` select a department head from the list of employees
+- Ability to `select` a department head from the list of employees
 - Ability to `view` all the employees and the department they belong to.
 
 ### To run the program
